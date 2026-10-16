@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1.7px solid #C6C6C6;
+}
+
+.logo {
+    width: 127px;
+    height: 33.02px;
+}
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-logo {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: 10px; 
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.profile-location {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.post-section {
+    width: 100%;
+    height: 375px;
+}
+
+.post-img {
+    width: 100%;
+    height: 100%;
+}
+
+.reactions-section {
+    width: 104.34px;
+    height: 22.13px;
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 10px;   
+}
+
+.reaction {
+    width: 23.13px;
+    height: 22.13px;
+}
+
+.reaction:hover, .reaction:focus {
+    opacity: 0.5;
+}
+
+.likes {
+    margin-top: 10px;
+    margin-left: 10px; 
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.comment-user {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.comment {
+    font-size: 13px;
+    margin-left: 10px;
+}
+.comment-section {
+    border-bottom: 35px solid #EDEDED;
+}
